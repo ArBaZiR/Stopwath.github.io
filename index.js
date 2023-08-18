@@ -77,7 +77,7 @@ function Stopwath() {
         let minuts = document.querySelector(".stopwath__minuts").textContent;
         let hours = document.querySelector(".stopwath__hour").textContent;
 
-        if ((milsec !== 0) | (sec !== 0) | (min !== 0) | (hour !== 0)) {
+        if ((milsec !== 0) || (sec !== 0) || (min !== 0) || (hour !== 0)) {
           StopwathCircle(millicecond, seconds, minuts, hours);
         }
       };
